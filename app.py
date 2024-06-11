@@ -67,7 +67,7 @@ def generate_breadth_and_depth(domain, sub_domain, title, abstract, description)
     1. **Why?** Why are we doing this project?
     2. **What?** What do we do?
     3. **Who?** Who are the stakeholders, team, customers, and sponsors involved in this project?
-    4. **When?** When will the project be completed?
+    4. **When?** When will the intended customers of the project be benifitted? Give uses case examples.
     5. **Where?** Where will the project be done and delivered?
     6. **How?** How will the project be executed?
 
@@ -116,7 +116,7 @@ def main():
     if st.session_state.description:
         st.header("Description")
         st.write(st.session_state.description)
-        
+
     # Generate Breadth and Depth
     if st.sidebar.button('Generate Breadth and Depth'):
         st.session_state.breadth_and_depth = generate_breadth_and_depth(st.session_state.domain, st.session_state.sub_domain, st.session_state.title, st.session_state.abstract, st.session_state.description)
