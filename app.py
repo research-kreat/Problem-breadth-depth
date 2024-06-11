@@ -64,12 +64,18 @@ def generate_breadth_and_depth(domain, sub_domain, title, abstract, description)
     ```{description}```
 
     Your task is to provide a detailed response to the following questions:
-    1. **Why?** Why are we doing this project?
-    2. **What?** What do we do?
-    3. **Who?** Who are the stakeholders, team, customers, and sponsors involved in this project?
-    4. **When?** When will the intended customers of the project be benifitted? Give uses case examples.
-    5. **Where?** Where will the project be done and delivered?
-    6. **How?** How will the project be executed?
+    **What:** Define the Problem Statement. This is the type of question we ask in order to narrow the problem and focus in on key issues.
+    **When:** Clearly identifying the time related aspects of the problem. When does the conflict occur? Is the key question here.
+    **Where:** The 'Where?' key is relating to the ‘zones of conflict’. Determine what is the zone of conflict looking at the super-system, system and sub-system.
+    **Who:** Clearly identify the person connected with the problem. He could be one who is using the final product or anyone in the line-up of concept-to-market or a person at any of the product Life-stages.
+    **How:** The how question is present to encourage you to think about the underlying causes and effects of the problem. How does the conflict arise?
+
+    Now think about these inverse questions:
+    **What is not a Problem?**: In contrast to the above context of "what is the problem", identify what is not a problem in the current scenario.
+    **When is it not a Problem?**: When is it not a problem or when is the time the conflict doesn't occur?
+    **Where is it not a Problem?**: Identify the zones of conflict where the problem doesn't occur looking at the super-system, system, and sub-system.
+    **Who is not affected?**: Here, identify the people who are not connected with the problem. They could be ones who are not using the final product or anyone not affected by the problem.
+    **How is it not a Problem?**: The how-not question is present to encourage us to think about how it is not affecting the current environment.
 
     Provide comprehensive and relevant answers based on the given domain, sub-domain, title, abstract, and description.
     """)
