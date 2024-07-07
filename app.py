@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-llm = ChatGroq(temperature=0, groq_api_key="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", model_name="mixtral-8x7b-32768")
+llm = ChatGroq(temperature=0, groq_api_key="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", model_name="mixtral-8x7b-32768")
 
 def generate_abstract(domain, sub_domain, title):
     prompt = ChatPromptTemplate.from_template(f"""
